@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <div id="LevelSelection" style="display: block;">
+      <h1 id="main">WORD GAME</h1>
+      <h5 id="choose">Choose the Level</h5>
+      <button title="Easy" onclick="level1()" id="levls1">Level-1</button>
+      <button title="Medium" onclick="level2()" id="levls2">Level-2</button>
+      <button title="Difficult" onclick="level3()" id="levls3">
+        Level-3
+      </button>
+    </div>
+
+    <div id="startbtn" style="display: none;">
+      <h1 class="find">FIND ME!!</h1>
+      <h5 class="concept">Words are related to programming</h5>
+      <button onclick="start()" class="go">Let's Go</button>
+    </div>
+
+    <div id="mainScreen" style="display: none;">
+      <p id="inputGuess" class="enter"></p>
+
+      <input type="text" id="guess" maxlength="1" /><br />
+      <div id="valid_btn">
+        <audio
+          id="Btn_Beep"
+          src="http://tusharbaheti28.000webhostapp.com/notification.mp3"
+        ></audio>
+        <button onclick="enterInput()" id="valid">Validate Now</button>
+      </div>
+    </div>
+
+    <div id="guessDetails" style="display: block;">
+      <p id="correctAns"></p>
+      <p id="wrongAns"></p>
+      <p id="remainingChances"></p>
+    </div>
+    <audio id="wrong" src="Audio/Wrong answer.mp3"></audio>
+    <audio id="correct" src="Audio/Correct Buzzer Sound Effect (1).mp3"></audio>
+    <div id="lost" style="display: none;">
+      <h1 class="sorry">Sorry!! You lost the game</h1>
+
+      <div>
+        <button onclick="restart()" class="try">Play again?</button>
+      </div>
+
+      <p id="correctWord"></p>
+    </div>
+
+    <div id="won" style="display: none;">
+      <audio id="clap" src="Audio/applause5.mp3"></audio>
+      <h2 class="awesome">Awesome!! That was right Guess</h2>
+      <div>
+        <button onclick="restart()" id="again">Go to next level</button>
+        <audio id="goto" src="Audio/smb_stage_clear.wav"></audio>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  background-image: url("images/bg4.jpg");
+  font-size: 28px;
+}
+
+#LevelSelection,
+.sorry {
+  margin-top: 160px;
+  margin-left: 410px;
+  color: blue;
+}
+
+#choose {
+  margin-left: 130px;
+  color: darkgoldenrod;
+}
+
+#levls3 {
+  margin-left: 30px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: lightgreen;
+}
+
+#levls2 {
+  margin-left: 37px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: lightgreen;
+}
+
+#levls1 {
+  margin-left: 70px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: lightgreen;
+}
+
+#startbtn {
+  margin-top: 160px;
+  margin-left: 470px;
+}
+
+.find {
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-left: 60px;
+  color: crimson;
+}
+
+.concept {
+  -webkit-text-fill-color: orange;
+  -webkit-text-stroke-width: 1px;
+  margin-left: 29px;
+  color: red;
+}
+
+.go {
+  margin-left: 150px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+}
+
+#inputGuess {
+  -webkit-text-stroke-width: 1px;
+  margin-top: 130px;
+  margin-left: 590px;
+  font-size: 30px;
+  color: orangered;
+}
+
+#guess {
+  margin-left: 570px;
+  width: 13%;
+  height: 20px;
+}
+
+#valid {
+  margin-left: 600px;
+  font-size: 17px;
+  margin-top: 27px;
+  background-color: blue;
+  color: white;
+}
+
+#guessDetails {
+  -webkit-text-stroke-width: 0.5px;
+  margin-left: 480px;
+  font-size: 25px;
+  color: purple;
+}
+
+.awesome {
+  margin-top: 180px;
+  margin-left: 440px;
+  color: dodgerblue;
+}
+
+.try,
+#again {
+  margin-left: 580px;
+  font-size: 20px;
+  background-color: indigo;
+  color: lightgreen;
+}
+
+#correctWord {
+  margin-left: 500px;
+  color: red;
+}
+
+#main {
+  color: coral;
+  margin-left: 50px;
+}
